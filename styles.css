@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* First Section */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d9f3de;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03392a;
+    background-color: #d9f3de;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.intro {
+    width: 400px;
+    height: auto;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #03392a;
+    color: white;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.bouquet {
+    height: auto;
+    width: 175px;
+    margin: 30px;
+    border: 5px solid #03392a;
+    border-radius: 5px;
+}
+/* First Section */
+
+

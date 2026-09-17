@@ -5,17 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:link {
+            color: black
+        }
+
+        a:visited {
+            color: #03392a
+        }
+    </style>
 </head>
 <body>
     <div class="container-one">
-        <img src="/round-icons-6ZMIuRGs0nE-unsplash.svg" width="64" height="64" alt="six sided green flower icon">
-        <a href="">Individuals</a>
-        <a href="">Bouquets</a>
-        <a href="">Contact Us</a>
-        <h1>Green Thumb Floral</h1>
-        <p>Welcome to Green Thumb Floral where we carry a beautiful array of flowers for every occasion!</p>
-        <button>Shop Now</button>
-        <img src="/brigitte-tohm-0utRJ1mZoZg-unsplash.jpg" width="640" height="960" alt="pink and purple bouquet of flowers">
+        <div class="navigation">
+            <img src="/round-icons-6ZMIuRGs0nE-unsplash.svg" width="64" height="64" alt="six sided green flower icon">
+            <ul>
+                <a href="">Individuals</a>
+                <a href="">Bouquets</a>
+                <a href="">Contact Us</a>
+            </ul>
+        </div>
+        <div class="container-two">
+            <div class="intro">
+                <h1>Green Thumb Floral</h1>
+                <p>Welcome to Green Thumb Floral where we carry a beautiful array of flowers for every occasion!</p>
+                <button>Shop Now</button>
+            </div>
+            <img class="bouquet" src="/brigitte-tohm-0utRJ1mZoZg-unsplash.jpg" width="640" height="960" alt="pink and purple bouquet of flowers">
+        </div>
     </div>
 </body>
 </html>
