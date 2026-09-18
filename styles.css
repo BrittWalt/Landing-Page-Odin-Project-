@@ -103,3 +103,24 @@ figcaption {
         margin: auto;
     }
 /* Third Section */
+
+/* Fourth Section */
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .join {
+        display: inline-flex;
+        padding: 40px;
+        border-radius: 5px;
+        margin-bottom: 60px;
+        gap: 50px;
+        background-color: #03392a
+    }
+
+    .sign-up {
+        color: white
+    }
+/* Fourth Section */
