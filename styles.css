@@ -124,3 +124,13 @@ figcaption {
         color: white
     }
 /* Fourth Section */
+
+/* Fifth Section */
+    footer {
+        border: solid;
+        background-color: #d9f3de;
+        padding: 40px;
+        text-align: center;
+        color: #03392a
+    }
+/* Fifth Section */
